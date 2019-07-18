@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Article.module.sass';
 
+import LazyLoad from 'react-lazyload';
+
 interface IArticleProps {
   title: string;
   img: Array<{ src: string }>;
@@ -10,7 +12,11 @@ interface IArticleProps {
 const Article = (props: IArticleProps) => {
   const { title, img, intro } = props;
   const imgDOM = img.map((item, index) => {
-    return <img src={item.src} className={styles.img} alt="" key={index} />;
+    return (
+      <LazyLoad key={index} offset={300}>
+        <img src={item.src} className={styles.img} alt="" />
+      </LazyLoad>
+    );
   });
 
   return (
