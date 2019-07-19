@@ -24,22 +24,19 @@ const ArticleType = (props: IArticleTypeProps) => {
 
     return <Article title={title} img={img} intro={intro} key={index} />;
   });
-  const Scroll = require('react-scroll');
+  // const Scroll = require('react-scroll');
 
-  Scroll.Events.scrollEvent.register('end', (to: any, element: any) => {
-    console.log('end', to, element);
-    scroller.scrollTo(to, {
-      smooth: true,
-      isDynamic: true,
-    });
-    Scroll.Events.scrollEvent.remove('end');
-  });
+  // Scroll.Events.scrollEvent.register('end', (to: any, element: any) => {
+  //   console.log('end', to, element);
+  //   scroller.scrollTo(to, {
+  //     smooth: true,
+  //     isDynamic: true,
+  //   });
+  //   Scroll.Events.scrollEvent.remove('end');
+  // });
 
   return (
     <div>
-      <Link to="4" isDynamic={true} smooth={true}>
-        To same
-      </Link>
       <div id={id} className={styles.article_type}>
         <div className={styles.title}>[台南] {name}</div>
         {articleDOM}
