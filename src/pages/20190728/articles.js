@@ -237,18 +237,22 @@ const hiking = [
 
 export default [
   {
+    id: '1',
     name: 'IG 打卡景點',
     articles: checkIn,
   },
   {
+    id: '2',
     name: '甜點、下午茶',
     articles: dessert,
   },
   {
+    id: '3',
     name: '吃吃',
     articles: eating,
   },
   {
+    id: '4',
     name: '散步爬山',
     articles: hiking,
   },

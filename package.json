@@ -1,7 +1,7 @@
 {
   "name": "trip",
   "version": "0.1.0",
-  "homepage": "https://bcjohnblue.github.io/trip",
+  "homepage": "https://bcjohnblue.github.io/Trip",
   "private": true,
   "dependencies": {
     "@types/jest": "^24.0.15",
@@ -10,6 +10,7 @@
     "@types/react-dom": "^16.8.4",
     "@types/react-lazyload": "^2.5.0",
     "@types/react-router-dom": "^4.3.4",
+    "@types/react-scroll": "^1.5.4",
     "lodash": "4.17.13",
     "lodash.template": "4.5.0",
     "node-sass": "^4.12.0",
@@ -18,6 +19,7 @@
     "react-lazyload": "^2.6.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.12",
     "typescript": "^3.5.3"
   },
   "scripts": {
@@ -25,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
