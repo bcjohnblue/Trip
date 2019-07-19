@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazyload';
 
 interface IArticleProps {
   title: string;
-  img: Array<{ src: string }>;
+  img: Array<{ src: string; style?: object }>;
   intro: { title: string; href: string };
 }
 
@@ -14,7 +14,7 @@ const Article = (props: IArticleProps) => {
   const imgDOM = img.map((item, index) => {
     return (
       <LazyLoad key={index} offset={300}>
-        <img src={item.src} className={styles.img} alt="" />
+        <img src={item.src} className={styles.img} style={item.style} alt="" />
       </LazyLoad>
     );
   });

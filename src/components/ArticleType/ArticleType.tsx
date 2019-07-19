@@ -5,7 +5,7 @@ import Article from '../../components/Article/Article';
 
 interface IArticleProps {
   title: string;
-  img: Array<{ src: string }>;
+  img: Array<{ src: string; style?: object }>;
   intro: { title: string; href: string };
 }
 
@@ -24,7 +24,7 @@ const ArticleType = (props: IArticleTypeProps) => {
   });
 
   return (
-    <div className={styles.article_type}>
+    <div id={name} className={styles.article_type}>
       <div className={styles.title}>[台南] {name}</div>
       {articleDOM}
     </div>
