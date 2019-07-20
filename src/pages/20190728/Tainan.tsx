@@ -10,12 +10,7 @@ const Tainan20190728: React.FC = () => {
     return <ArticleType id={id} name={name} articles={articles} key={index} />;
   });
 
-  return (
-    <div>
-      <div className={styles.tainan}>{articleDOM}</div>
-      <Element id="same" name="name" />
-    </div>
-  );
+  return <div className={styles.tainan}>{articleDOM}</div>;
 };
 
 export default Tainan20190728;
