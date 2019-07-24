@@ -82,6 +82,89 @@ const checkIn = [
       href: 'https://mimihan.tw/tainan-kuruya/',
     },
   },
+  {
+    title: '貓咪高地',
+    img: [
+      {
+        src: 'https://img.mimihan.tw/uploads/20171002181944_59.jpg',
+      },
+      {
+        src: 'https://img.mimihan.tw/uploads/20171002181948_28.jpg',
+      },
+    ],
+    intro: {
+      title:
+        '【台南景點】貓咪高地（銀同里彩繪巷）聚珍台灣，隱藏在台南市區裡的IG打卡小秘境',
+      href: 'https://mimihan.tw/cats-hill/',
+    },
+  },
+  {
+    title: '十鼓文化園區',
+    img: [
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/58402069e040a32ce34f1bd2615c1c4e.jpg',
+      },
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/78e253ffe7d302c47ced95212997f6e2.jpg',
+      },
+    ],
+    intro: {
+      title:
+        '【台南景點】十鼓文化園區：搭載夢想起飛的老糖廠，園區好好玩，日夜都美麗',
+      href: 'https://mimihan.tw/ten-drum/',
+    },
+  },
+  {
+    title: '台江學園（台江國家公園管理處＆遊客中心）',
+    img: [
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/fb85fb3f63a5d41c0c1b7e80774bfd3a.jpg',
+      },
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/5357a6214c8c3a3b3f88daa8c68d5bc9.jpg',
+      },
+    ],
+    intro: {
+      title:
+        '【台南景點】台江國家公園遊客中心(台江學園)：台南IG打卡新熱點，超好拍水上高腳屋',
+      href: 'https://mimihan.tw/2017-01-19-1344/',
+    },
+  },
+  {
+    title: '四草綠色隧道 – 必拍天使之吻',
+    img: [
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/b6cc2b8598db8de9d14aaa791f538850.jpg',
+      },
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/929330fc3558773bfd378edf633e618e.jpg',
+      },
+    ],
+    intro: {
+      title:
+        '【台南景點】四草綠色隧道：台江國家公園中的台南瑰寶，絕美倒影畫面天使之吻，值得收藏!!',
+      href: 'https://mimihan.tw/2015-01-25-648/',
+    },
+  },
+  {
+    title: '觀夕平台',
+    img: [
+      {
+        src:
+          'https://img.mimihan.tw/pixnet/c3d999f4af3d8661f60f4b6ef4e3f56b.jpg',
+      },
+    ],
+    intro: {
+      title: '【台南景點】觀夕平台',
+      href: 'https://mimihan.tw/tainan/',
+    },
+  },
 ];
 
 const dessert = [
@@ -235,6 +318,22 @@ const hiking = [
   },
 ];
 
+const map = [
+  {
+    title: '臺南 吃貨地圖',
+    img: [
+      {
+        src:
+          'https://images.chinatimes.com/newsphoto/2019-07-18/1024/20190718003907.jpg',
+      },
+    ],
+    intro: {
+      title: '他撿到台南吃貨地圖 千人讚爆秒存',
+      href: 'https://www.chinatimes.com/amp/hottopic/20190719000008-260804',
+    },
+  },
+];
+
 export default [
   {
     id: 'checkIn',
@@ -255,5 +354,10 @@ export default [
     id: 'hiking',
     name: '散步爬山',
     articles: hiking,
+  },
+  {
+    id: 'map',
+    name: '吃貨地圖',
+    articles: map,
   },
 ];
