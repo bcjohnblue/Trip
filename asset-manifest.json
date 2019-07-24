@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Trip/static/css/main.8ad7675e.chunk.css",
-    "main.js": "/Trip/static/js/main.b80519e7.chunk.js",
-    "main.js.map": "/Trip/static/js/main.b80519e7.chunk.js.map",
+    "main.css": "/Trip/static/css/main.9ecbf8ae.chunk.css",
+    "main.js": "/Trip/static/js/main.71766c7a.chunk.js",
+    "main.js.map": "/Trip/static/js/main.71766c7a.chunk.js.map",
     "runtime~main.js": "/Trip/static/js/runtime~main.55fa8f8d.js",
     "runtime~main.js.map": "/Trip/static/js/runtime~main.55fa8f8d.js.map",
     "static/js/2.5b39c4bb.chunk.js": "/Trip/static/js/2.5b39c4bb.chunk.js",
     "static/js/2.5b39c4bb.chunk.js.map": "/Trip/static/js/2.5b39c4bb.chunk.js.map",
     "index.html": "/Trip/index.html",
-    "precache-manifest.e8896f0667adb9401d497a7ff75e554d.js": "/Trip/precache-manifest.e8896f0667adb9401d497a7ff75e554d.js",
+    "precache-manifest.056415da906e93ef1dedc0e39b5b9308.js": "/Trip/precache-manifest.056415da906e93ef1dedc0e39b5b9308.js",
     "service-worker.js": "/Trip/service-worker.js",
-    "static/css/main.8ad7675e.chunk.css.map": "/Trip/static/css/main.8ad7675e.chunk.css.map"
+    "static/css/main.9ecbf8ae.chunk.css.map": "/Trip/static/css/main.9ecbf8ae.chunk.css.map"
   }
 }
